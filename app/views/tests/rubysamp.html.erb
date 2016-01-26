@@ -1,0 +1,39 @@
+<%= link_to 'Home', root_path %><br><br>
+c = Constant <br> V = Variable 
+
+<h2> Ankle:(c) </h2> 
+<iframe width="420" height="315" src="https://www.youtube.com/embed/sJZsgDXEbQc" frameborder="0" allowfullscreen></iframe><br><br>
+
+<h2> Hamstring:(c) </h2>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/LobFlKoC8YI" frameborder="0" allowfullscreen></iframe><br><br>
+
+<h2> It Band:(c) </h2> 
+<iframe width="420" height="315" src="https://www.youtube.com/embed/52UK3ECRM48" frameborder="0" allowfullscreen></iframe><br><br> 
+
+<h2> Hip Flexors:(c) </h2>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/gfei_2BUF5c" frameborder="0" allowfullscreen></iframe><br><br>
+
+<% @exercise_now %>
+
+<% @main_pro %>
+
+
+
+<br><br>
+<%= render 'rubymain' %>
+
+<%= render 'rubysecond' %>
+
+<%= render 'rubyassist' %>
+
+<%= render 'rubyabs' %>
+
+<br> 
+<br> 
+<h2>OR</h2>
+
+<h3> <%= link_to '1.)Ankle Warmup:c', tests_anklewarmup_path %></h3>
+
+<h3> <%= link_to '2.)Hamstring Stretch:c', tests_hamstring_path %></h3> 
+
+<h3> <%= link_to '3.)It band Stretch:c', tests_itband_path %></h3> 

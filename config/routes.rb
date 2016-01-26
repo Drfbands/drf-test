@@ -7,6 +7,14 @@ Rails.application.routes.draw do
 
   get 'tests/jump'
 
+  get 'tests/rubysamp'
+
+  get 'tests/anklewarmup'
+
+  get 'tests/hamstring'
+
+  get 'tests/itband'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

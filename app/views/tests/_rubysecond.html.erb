@@ -1,0 +1,21 @@
+
+<% @main_pro %>
+
+<h2> Second Main:(V) </h2>
+
+<% if ["Stepper"] == @main_pro %>
+			<iframe width="560" height="315" src=<%= @main_ex %>
+			 frameborder="0" allowfullscreen></iframe> 
+		<%	elsif ["Conditioning"] == @main_pro %>
+		<iframe width="560" height="315" src=
+			<%=	@main_two %>
+			frameborder="0" allowfullscreen></iframe> 
+			<% elsif ["Backward_run"] ==           @main_pro %>
+			<iframe width="560" height="315" src=
+				<%=  @main_three %> 
+				frameborder="0" allowfullscreen></iframe>  
+			<% else %>
+				<%=  "This isnt working" %>
+			 <% end %>	
+<br>
+<br> 

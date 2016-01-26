@@ -1,0 +1,21 @@
+
+<% @assist_pro %>
+
+<h2> Assistance:(V) </h2>
+
+<% if ["Press"] == @assist_pro %>
+			<iframe width="560" height="315" src=<%= @assist_one %>
+			 frameborder="0" allowfullscreen></iframe> 
+		<%	elsif ["Triceps"] == @assist_pro %>
+		<iframe width="560" height="315" src=
+			<%=	@assist_two %>
+			frameborder="0" allowfullscreen></iframe> 
+			<% elsif ["Lateral"] ==           @assist_pro %>
+			<iframe width="560" height="315" src=
+				<%=  @assist_three %> 
+				frameborder="0" allowfullscreen></iframe>  
+			<% else %>
+				<%=  "This isnt working" %>
+			 <% end %>	
+<br>
+<br> 

@@ -33,7 +33,40 @@ class TestsController < ApplicationController
 			@abs = ["  bar legs straight or bent", "  SLR", "  6 inches", "  assisted/resisted sit ups", "  assisted/resisted planks", "  sprinter sit ups", "  suit cases", "  clams"] 
 
 			@floor = @floor
-
   end 
+
+	def rubysamp
+		@exercises = ["Squat", "Jumps", "Forward_run",]
+		@exercise_now = @exercises.sample(1)
+		@squat_reaction = "https://www.youtube.com/embed/NzdmG-d-ZC0"
+		@jumps_reaction = "https://www.youtube.com/embed/RSeI-bqJSsw"
+		@forward_run_reaction = "https://www.youtube.com/embed/z-WOQNyhyBA"
+		@mains = ["Stepper", "Conditioning", "Backward_run",]
+		@main_pro = @mains.sample(1)
+		@main_ex = "https://www.youtube.com/embed/AnekxiizIu0"
+		@main_two = "https://www.youtube.com/embed/Z_ZopxBALUQ"
+		@main_three = "https://www.youtube.com/embed/C4XTobT_3Hg"
+
+		@assist = ["Press", "Triceps", "Lateral" ]
+		@assist_pro = @assist.sample(1)
+		@assist_one = "https://www.youtube.com/embed/cJlZM6LNfUo"
+		@assist_two = "https://www.youtube.com/embed/zAdamMZX2fU"
+		@assist_three = "https://www.youtube.com/embed/Sjc1dSYk17Y"
+
+		@abs = ["Slr", "Double",]
+		@abs_pro = @abs.sample(1)
+		@abs_one = "https://www.youtube.com/embed/SUu3XaHSHNw"
+		@abs_two = "https://www.youtube.com/embed/AxUUsVsCXJI"
+	end 
+
+		def anklewarmup
+		end 
+
+		def hamstring 
+		end 
+
+		def itband 
+		end 
+
 
 end

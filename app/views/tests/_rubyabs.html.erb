@@ -1,0 +1,16 @@
+<% @abs_pro %>
+
+<h2> Abs:(V) </h2>
+
+<% if ["Slr"] == @abs_pro %>
+			<iframe width="560" height="315" src=<%= @abs_one %>
+			 frameborder="0" allowfullscreen></iframe> 
+		<%	elsif ["Double"] == @abs_pro %>
+		<iframe width="560" height="315" src=
+			<%=	@abs_two %>
+			frameborder="0" allowfullscreen></iframe>   
+			<% else %>
+				<%=  "This isnt working" %>
+			 <% end %>	
+<br>
+<br> 
