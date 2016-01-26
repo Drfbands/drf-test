@@ -1,0 +1,42 @@
+<h2><%= @exercise_now %> </h2>
+
+
+
+
+<% if ["Squat"] == @exercise_now %>
+			<iframe width="560" height="315" src=<%= @squat_reaction %> frameborder="0" allowfullscreen></iframe> 
+		<%	elsif ["Jumps"] == @exercise_now %>
+			<%=	@jumps_reaction %>
+			<% elsif ["Forward_run"] ==           @exercise_now %>
+				<%=  @forward_run_reaction %>
+			<% elsif ["Backward_run"] == @exercise_now  %>
+			<%=	@backward_run_reaction %>  
+			<% else %>
+				<%=  "This isnt working" %>
+			 <% end %>			
+
+			 <br> 
+			 <br> 
+			 <br> 
+
+
+
+<h2><%= @exercise_now %> </h2>
+
+
+<% if ["Squat"] == @exercise_now %>
+			<%= @squat_reaction  %>
+		<%	elsif ["Jumps"] == @exercise_now %>
+			<%=	@jumps_reaction %>
+			<% elsif ["Forward_run"] ==           @exercise_now %>
+				<%=  @forward_run_reaction %>
+			<% elsif ["Backward_run"] == @exercise_now  %>
+			<%=	@backward_run_reaction %>  
+			<% else %>
+				<%=  "This isnt working" %>
+			 <% end %>			
+<br> 
+<br> 
+<br>
+<br>
+<br>
