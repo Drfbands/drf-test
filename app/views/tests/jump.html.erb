@@ -1,0 +1,48 @@
+<%= link_to 'Home', root_path %><br>
+
+c = Constant <br> V = Variable <br><br>
+
+<p></p>
+<h2>1.)Floor Stretches:(c) </h2>
+<%= @floor_stretches.each do |exercise| %>          <%= puts  "  #{exercise}" %>
+<% end %> 
+
+<h2>2.)Low back 1:(c) </h2>
+<%= @floor_lowback_stretches.each do |exercise| %>         <%= puts  "  #{exercise}" %>
+<% end %> 
+
+
+<h2>3.)Low back 2:(c) </h3> 
+<%= @lowback_on_all_fours.each do |exercise| %>                <%= puts  "  #{exercise}" %>
+<% end %>
+
+
+<h2>4.)Upper Body Stretching:(c) </h2>
+<%= @upper_body_stretches.each do |exercise| %>           <%= puts  "  #{exercise}" %>
+<% end %>
+
+<br> 
+
+<h2>5.)Main Exercises:(v) </h2>
+<%=  @main_exercises_a.sample(2) %><br><br> 
+
+<h2> 6.)Second Main Exercises:(v) </h2>
+ 	<%= @main_exercises_b.sample(2) %> <br><br>
+
+
+<h2> 7.)Main Assistance Exercises:(v) </h2>
+     <%= @main_assistance.sample(2) %> <br><br>
+
+
+<h2> 8.)Slow Assistance Exercises:(v) </h2>
+      <%= @slow_assistance.sample(1) %><br><br> 
+
+
+<h2> 9.)Upper Body Exercises:(v) </h2>	 				<%= @upper_body_strengthening.sample(1) %><br><br>
+
+
+<h2> 10.)ABS:(v) </h2>
+ 	 	<%= @abs.sample(1) %><br><br>
+
+
+
