@@ -1,5 +1,6 @@
 class TestsController < ApplicationController
   def home
+  	$butt = "ass"
   end
 
   def tran

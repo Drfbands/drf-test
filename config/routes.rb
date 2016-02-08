@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   resources :posts
 
+  resources :charges 
+
   root 'tests#home'
 
   get 'tests/tran'
