@@ -69,5 +69,8 @@ class TestsController < ApplicationController
 		def itband 
 		end 
 
+		def drfstretching
+		end 
+
 
 end

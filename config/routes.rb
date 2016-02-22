@@ -5,6 +5,22 @@ Rails.application.routes.draw do
 
   root 'tests#home'
 
+  get 'lists/ankles'
+
+  get 'lists/hamstring'
+
+  get 'lists/groin'
+
+  get 'lists/itband'
+
+  get 'lists/hip'
+
+  get 'lists/backglute'
+
+  get 'lists/quad'
+
+  get 'lists/hipflex'
+
   get 'tests/tran'
 
   get 'tests/jump'
@@ -16,6 +32,8 @@ Rails.application.routes.draw do
   get 'tests/hamstring'
 
   get 'tests/itband'
+
+  get 'tests/drfstretching'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
