@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   resources :charges 
 
-  root 'tests#home'
+  get 'tests/home'
 
   get 'lists/ankles'
 
@@ -33,7 +33,7 @@ Rails.application.routes.draw do
 
   get 'tests/itband'
 
-  get 'tests/drfstretching'
+  root 'tests#drfstretching'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
