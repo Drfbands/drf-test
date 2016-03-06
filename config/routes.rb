@@ -21,6 +21,8 @@ Rails.application.routes.draw do
 
   get 'lists/hipflex'
 
+  get 'lists/stretchesandtransitions'
+
   get 'tests/tran'
 
   get 'tests/jump'
