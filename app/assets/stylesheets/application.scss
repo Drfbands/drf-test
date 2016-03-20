@@ -1,3 +1,22 @@
+$body-bg: #ecf0f1;
+$jumbotron-bg: white;
+
+
+
+.center { 
+text-align: center; 
+}
+
+
+.line {
+	color: rgb(0,0,0);
+}
+
+@import "bootstrap-sprockets";
+@import "bootstrap";  
+
+
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.

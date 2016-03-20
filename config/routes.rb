@@ -35,6 +35,10 @@ Rails.application.routes.draw do
 
   get 'tests/itband'
 
+  get 'tests/terms'
+
+  get 'tests/privacy'
+
   root 'tests#drfstretching'
 
   # The priority is based upon order of creation: first created -> highest priority.

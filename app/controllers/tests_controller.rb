@@ -72,5 +72,11 @@ class TestsController < ApplicationController
 		def drfstretching
 		end 
 
+		def terms
+		end 
+
+		def privacy 
+		end 
+
 
 end
