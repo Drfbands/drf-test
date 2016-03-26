@@ -41,6 +41,16 @@ Rails.application.routes.draw do
 
   root 'tests#drfstretching'
 
+  get 'tests/baseball'
+
+  get 'drills/upperstretching'
+
+  get 'drills/bandpullaparts'
+
+  get 'drills/ocwindow'
+
+  get 'drills/wrist'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
