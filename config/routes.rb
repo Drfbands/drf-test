@@ -47,9 +47,24 @@ Rails.application.routes.draw do
 
   get 'drills/bandpullaparts'
 
-  get 'drills/ocwindow'
+  get 'drills/firemanpull'
 
   get 'drills/wrist'
+
+  get 'drills/torsotwists'
+
+  get 'drills/sixinches'
+
+  get 'drills/goodmorning'
+
+  get 'drills/squats'
+
+  get 'drills/lateraljumps'
+
+  get 'drills/minibandjumps'
+
+  get 'drills/bandpullthroughs'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

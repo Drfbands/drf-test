@@ -6,10 +6,31 @@ class DrillsController < ApplicationController
 	def bandpullaparts 
 	end 
 
-	def ocwindow 
+	def firemanpull 
 	end 
 
 	def wrist
+	end 
+
+	def torsotwists
+	end 
+
+	def sixinches 
+	end 
+
+	def goodmorning
+	end 
+
+	def squats 
+	end 
+
+	def bandpullthroughs
+	end 
+
+	def minibandjumps 
+	end 
+
+	def lateraljumps 
 	end 
 
 
