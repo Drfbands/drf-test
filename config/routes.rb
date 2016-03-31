@@ -71,6 +71,10 @@ Rails.application.routes.draw do
 
   get 'drills/ocwindow'
 
+  get 'drills/shinsplint'
+
+  get 'drills/tke'
+
   
 
 

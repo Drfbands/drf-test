@@ -36,7 +36,11 @@ class DrillsController < ApplicationController
 	def ocwindow
 	end 
 
+	def shinsplint
+	end 
 
+	def tke
+	end 
 
 
 end
