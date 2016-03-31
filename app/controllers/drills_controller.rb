@@ -33,6 +33,8 @@ class DrillsController < ApplicationController
 	def lateraljumps 
 	end 
 
+	def ocwindow
+	end 
 
 
 

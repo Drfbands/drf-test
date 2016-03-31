@@ -43,6 +43,10 @@ Rails.application.routes.draw do
 
   get 'tests/baseball'
 
+  get 'tests/basketball'
+
+  get 'tests/crosscountry'
+
   get 'drills/upperstretching'
 
   get 'drills/bandpullaparts'
@@ -64,6 +68,10 @@ Rails.application.routes.draw do
   get 'drills/minibandjumps'
 
   get 'drills/bandpullthroughs'
+
+  get 'drills/ocwindow'
+
+  
 
 
   # The priority is based upon order of creation: first created -> highest priority.
