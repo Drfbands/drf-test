@@ -42,5 +42,8 @@ class DrillsController < ApplicationController
 	def tke
 	end 
 
+	def pushups
+	end 
+
 
 end

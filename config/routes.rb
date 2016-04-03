@@ -47,6 +47,10 @@ Rails.application.routes.draw do
 
   get 'tests/crosscountry'
 
+  get 'tests/football'
+
+  get 'tests/volleyball'
+
   get 'drills/upperstretching'
 
   get 'drills/bandpullaparts'
@@ -74,6 +78,8 @@ Rails.application.routes.draw do
   get 'drills/shinsplint'
 
   get 'drills/tke'
+
+  get 'drills/pushups'
 
   
 

@@ -81,6 +81,12 @@ class TestsController < ApplicationController
 		def crosscountry 
 		end 
 
+		def football
+		end 
+
+		def volleyball
+		end 
+
 		def terms
 		end 
 
